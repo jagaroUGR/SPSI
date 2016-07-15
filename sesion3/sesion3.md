@@ -107,3 +107,11 @@ Por tanto, el tamaño del archivo cifrado será un múltiplo del tamaño del blo
 ## Llaves Enigma y generadas por TrueCrypt
 
 Los dos conjuntos son expuestos a diversos experimentos y Enigma pasa todos los tests mientras que TrueCrypt falla en el de rachas.
+
+![](imgs/analisis.png)
+
+## Tiempos necesarios para descifrar un archivo 
+
+En este caso hemos usado el algoritmo RC4 para cifrar el archivo y usando distintas longitudes de llaves obtenemos los tiempos siguientes
+
+![](imgs/rc4.png)
