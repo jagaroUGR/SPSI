@@ -103,3 +103,7 @@ En caso de que el texto a cifrar no sea múltiplo del tamaño de bloque que use 
 En este ejemplo, ciframos la palabra pedro, que son 5 caracteres, y nos devuelve 8 caracteres que es el tamaño de bloque que usa el algoritmo des1.
 
 Por tanto, el tamaño del archivo cifrado será un múltiplo del tamaño del bloque y mayor o igual que el tamaño del archivo sin cifrar.
+
+## Llaves Enigma y generadas por TrueCrypt
+
+Los dos conjuntos son expuestos a diversos experimentos y Enigma pasa todos los tests mientras que TrueCrypt falla en el de rachas.
